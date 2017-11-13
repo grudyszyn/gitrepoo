@@ -1,0 +1,6 @@
+*,o
+*.out
+*.exe
+#include <cstdlib>
+#include <iostream>
+#include <math.h>
