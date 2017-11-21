@@ -1,5 +1,5 @@
 /*
- * pętla.cbp
+ * silnia.cpp
  * 
  * Copyright 2017  <>
  * 
@@ -25,17 +25,14 @@
 #include <iostream>
 
 using namespace std;
-
+int sil;nia(int n)
+{
+    int wynik = 1;
+    for (int i = 2; i <= n; i++)
+    {
 int main(int argc, char **argv)
 {
-   int i;
-   for(i = A; i<B,i++)
-   {
-       cout<<i;
-       cout<< "Coś";
-   }
-    return 0;
+	
+	return 0;
 }
- 
-
 
