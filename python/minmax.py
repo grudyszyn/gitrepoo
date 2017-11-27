@@ -17,23 +17,36 @@ def losuj(ileliczb, maksliczb):
             liczby.append(liczba)
             ile += 1
 
-    # print(liczby)
+    print(liczby)
     return liczby
 
 
 def minimum(lista):
-    """wyszukiwanie minimum"""
+    # wyszukiwanie minimum
     min = lista[0]
     for i, el in enumerate(lista):
-            print(i, el)
-     return 0
+         if el < min:
+            min = el
+    return min
 
-
-def main(args)
-    lista = losuj (20, 50)
-
+def maximum(lista):
+    # wyszukiwanie maximum
+    max = lista[0]
+    for i, el in enumerate(lista):
+        if el > max:
+            max = el
+    return max
+    
+    
+def main(args):
+    lista = losuj(20, 50)
+    assert minimum([7, 9, 3, 6]) ==3
+    assert maksimum([9, 1, 5, 6]) ==9
+    print("Min: ", minimum(lista))
+    print("Max: ", maximum(lista))
+    return 0
 
 
 if __name__ == '__main__':
-import sys
+    import sys
 sys.exit(main(sys.argv))
