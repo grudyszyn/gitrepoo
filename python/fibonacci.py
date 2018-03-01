@@ -13,6 +13,12 @@ def fib_iter(n):
         else:
             return a
 
+#fib_rek(n) dla n = {0, 1}
+#fib_rek(n) = fib_rek(n-1) + fib_rek(n-2) dla n > 1
+
+def fib_rek(n):
+    if n < 2:
+        return 1
 
 def main(args):
     n = int(input("Numer wyrazu w ciągu: "))

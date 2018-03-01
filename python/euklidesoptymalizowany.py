@@ -11,6 +11,16 @@ def nwd_v2(a, b):
     return b
 
 
+def nwd_rek(a, b):
+    while b != 0:
+        if b != 0:
+            c = b
+            c = a % b
+            a = b
+            b = c
+    return a
+
+
 def main(args):
     a = int(input("Podaj liczbe naturalną: "))
     b = int(input("podaj liczbe naturalną: "))
